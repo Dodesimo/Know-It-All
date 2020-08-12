@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Know-It-All</string>
+    <string name="know_it_all">Know-It-All</string>
+    <string name="let_s_go">Let\'s Go!</string>
+    <string name="credits">Credits</string>
+    <string name="settings_bar">Settings Bar</string>
+    <string name="chooseTopic">Choose your topic:"</string>
+    <string name="english">English</string>
+    <string name = "math">Math</string>
+
+    <string-array name="subjects">
+
+        <item>@string/chooseTopic</item>
+        <item>@string/english</item>
+        <item>@string/math</item>
+
+    </string-array>
+</resources>
