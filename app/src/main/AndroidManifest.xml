@@ -9,11 +9,14 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".scienceSubtopicSelection">
+        </activity>
+        <activity android:name=".settings">
+        </activity>
         <activity android:name=".credits">
         </activity>
         <activity android:name=".topicSelection">
         </activity>
-        <activity android:name=".settings"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

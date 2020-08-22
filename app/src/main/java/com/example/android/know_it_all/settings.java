@@ -1,7 +1,6 @@
 package com.example.android.know_it_all;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
 public class settings extends AppCompatActivity {

@@ -33,6 +33,7 @@ public class topicSelection extends AppCompatActivity {
                 String defaultChoice = getResources().getString(R.string.chooseTopic);
                 String english = getResources().getString(R.string.english);
                 String math = getResources().getString(R.string.math);
+                String science = getResources().getString(R.string.science);
 
                 System.out.println(spinner.getSelectedItem().toString());
 
@@ -45,6 +46,11 @@ public class topicSelection extends AppCompatActivity {
 
                 } else if (spinner.getSelectedItem().toString().equals(math)) {
 
+
+                } else if (spinner.getSelectedItem().toString().equals(science)) {
+
+                    Intent scienceIntent = new Intent(topicSelection.this, com.example.android.know_it_all.scienceSubtopicSelection.class);
+                    startActivity(scienceIntent);
 
                 }
             }
