@@ -1,10 +1,10 @@
 package com.example.android.know_it_all;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class topicSelection extends AppCompatActivity {
 
@@ -39,7 +39,7 @@ public class topicSelection extends AppCompatActivity {
 
                 if (spinner.getSelectedItem().toString().equals(defaultChoice)) {
 
-                   Toast.makeText(topicSelection.this, "Please choose a topic!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(topicSelection.this, "Please choose a topic!", Toast.LENGTH_SHORT).show();
 
                 } else if (spinner.getSelectedItem().toString().equals(english)) {
 

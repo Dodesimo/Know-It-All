@@ -1,12 +1,11 @@
 package com.example.android.know_it_all;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
-import android.os.Bundle;
 
 public class scienceSubtopicSelection extends AppCompatActivity implements View.OnClickListener {
 
@@ -27,7 +26,7 @@ public class scienceSubtopicSelection extends AppCompatActivity implements View.
     @Override
     public void onClick(View v) {
 
-        Intent spaceIntent = new Intent(scienceSubtopicSelection.this, com.example.android.know_it_all.MainActivity.class);
+        Intent spaceIntent = new Intent(scienceSubtopicSelection.this, com.example.android.know_it_all.space.class);
 
         if (v.getId() == R.id.ivSpace) {
 

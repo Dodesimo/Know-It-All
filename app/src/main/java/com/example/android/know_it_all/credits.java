@@ -1,7 +1,7 @@
 package com.example.android.know_it_all;
 
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class credits extends AppCompatActivity {
 
