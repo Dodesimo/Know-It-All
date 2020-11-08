@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorAccent"
@@ -12,21 +12,44 @@
     <TextView
             android:text="What is Space?"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:id="@+id/tvSpaceTopic" android:gravity="center_horizontal"
+            android:layout_height="53dp" android:id="@+id/tvSpaceTopic" android:gravity="center_horizontal"
             android:textSize="30sp" android:textStyle="bold"/>
 
     <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
 
         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
-                      android:orientation="vertical">
-            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text="Earth is the third planet from the Sun and the only astronomical object known to harbor life. According to radiometric dating estimation and other evidence, Earth formed over 4.5 billion years ago. Earth's gravity interacts with other objects in space, especially the Sun and the Moon, which is Earth's only natural satellite. Earth orbits around the Sun in 365.256 solar days, a period known as an Earth sidereal year. During this time, Earth rotates about its axis 366.256 times, that is, a sidereal year has 366.256 sidereal days.[n 6]
+                      android:orientation="vertical" android:layout_marginLeft="25dp" android:layout_marginRight="25dp">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text=
+                    "Space is the area where everything is in. The Earth, our Solar System, and the Milky Way are all in space. Space is a vacuum; there is no air present in space. Also, since space is a vacuum, sound cannot travel through it."
+                      android:id="@+id/tvFirstParagraph" android:textSize="18sp" android:gravity="center">
+            </TextView>
 
-    Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth. The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth's orientation on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the largest and most massive of the four rocky planets.
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text=
+                    "     " android:id="@+id/tvFirstPadding" android:textSize="18sp" android:gravity="center">
+            </TextView>
 
-    Earth's outer layer (lithosphere) is divided into several rigid tectonic plates that migrate across the surface over many millions of years. About 29% of Earth's surface is land consisting of continents and islands. The remaining 71% is covered with water, mostly by oceans but also lakes, rivers and other fresh water, which all together constitute the hydrosphere. The majority of Earth's polar regions are covered in ice, including the Antarctic ice sheet and the sea ice of the Arctic ice pack. Earth's interior remains active with a solid iron inner core, a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives plate tectonics.
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text=
+                    "There are various objects present in space, such as planets, galaxies, black holes. For example, Venus, Earth, and Mars are some planets in space. The Andromeda Galaxy and the Milky Way Galaxy are present in space. Black holes are objects where gravity is extremely powerful and can suck up anything in space, even planets! Some examples of black holes include 3C 75 and 3C 371."
+                      android:id="@+id/tvSecondParagraph" android:textSize="18sp" android:gravity="center">
+            </TextView>
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:text=
+                    "     " android:id="@+id/tvSecondPadding" android:textSize="18sp" android:gravity="center">
+            </TextView>
 
-    Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's atmosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms. Some geological evidence indicates that life may have arisen as early as 4.1 billion years ago. Since then, the combination of Earth's distance from the Sun, physical properties and geological history have allowed life to evolve and thrive. In the history of life on Earth, biodiversity has gone through long periods of expansion, occasionally punctuated by mass extinctions. Over 99% of all species that ever lived on Earth are extinct. Estimates of the number of species on Earth today vary widely; most species have not been described. Over 7.7 billion humans live on Earth and depend on its biosphere and natural resources for their survival.[24 The modern English word Earth developed, via Middle English,[n 7] from an Old English noun most often spelled eorðe.[25] It has cognates in every Germanic language, and their ancestral root has been reconstructed as *erþō. In its earliest attestation, the word eorðe was already being used to translate the many senses of Latin terra and Greek γῆ gē: the ground,[n 8] its soil,[n 9] dry land,[n 10] the human world,[n 11] the surface of the world (including the sea),[n 12] and the globe itself.[n 13] As with Roman Terra/Tellūs and Greek Gaia, Earth may have been a personified goddess in Germanic paganism: late Norse mythology included Jörð ('Earth'), a giantess often given as the mother of Thor."
-                      android:id="@+id/tvInformation"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text=
+                    "Overall, space is a very interesting environment to study, with its various parts. Ultimately, it is an important part of science, astronomy more specifically.
+     " android:id="@+id/tvThirdParagraph" android:textSize="18sp" android:gravity="center">
+            </TextView>
+            <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp" app:srcCompat="@drawable/andromedagalaxy"
+                    android:id="@+id/ivAndromedaGalaxy"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="64dp" android:id="@+id/textView"
+                    android:text="This is an image of the Andromeda Galaxy! To go back to the Science page, press the back button."
+                    android:textSize="16sp" android:gravity="center" android:layout_marginBottom="10dp"/>
+
         </LinearLayout>
 
     </ScrollView>
